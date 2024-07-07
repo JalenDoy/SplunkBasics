@@ -30,6 +30,37 @@ Before moving forward, deploy the machine. When you deploy the machine, it will 
 
 Question 1:  **Which Component is used to collect and send data over the splunk instance?** Forwarder
 
-<h2>Task 1: Inspecting your VPC</h2>
-<h2>Task 1: Inspecting your VPC</h2>
-<h2>Task 1: Inspecting your VPC</h2>
+<h2>Task 4: Navigating Splunk</h2>
+
+Question 1:  **In the Add Data tab, which option is used to collect data from files and ports?** Monitor
+
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/Wp6kgey.png"/>
+
+<h2>Task 5: Adding Data</h2>
+
+Instructions: Download the TryHackMe VPN logs and upload them to the Splunk instance. Create a new index called VPN_Logs and complete the following questions. 
+
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/yYFZkNd.png"/>
+
+Question 1:  **Upload the data attached to this task and create an index "VPN_Logs". How many events are present in the log file?** 2862. 
+
+Question 2:  **How many log events by the user Maleena are captured?** 60. 
+
+Hint: Type UserName="Maleena" in the search field.
+
+Question 3:  **What is the name associated with IP 107.14.182.38?** Smith. 
+
+Question 4:  **What is the number of events that originated from all countries except France?** 2814. 
+
+Question 5:  **How many VPN Events were observed by the IP 107.3.206.58?** 14.
+
+Hint: Type Source_ip="107.3.206.58" in the search field.
+
+
+<h2>Task 5: Conclusion</h2>
+
+In this room, we explored Splunk, its components, and how it works
